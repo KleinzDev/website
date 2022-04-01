@@ -1,14 +1,19 @@
 <template>
-    <div class="container mx-auto">
-        <div class="p-5 mx-16 box-border">
-            <h1 class="text-4xl font-semibold">Hello!</h1>
-            <p class="mt-4">
-                I'm Kleinz (not my real name obviously, but it's a name i use online so call me that)<br/>
-                I am a full stack web developer, primarily making Node.js web applications<br/><br/>
-                I typically work with Node.js, express, PostgreSQL (or mysql, what works best for db stuff basically),<br/>
-                redis (as a cache layer and also to store session data), and Vue.js
-                <br/><br/>I'm a high school student and I like watching anime<br/><br/>
-                (remind me to expand this cause im too lazy rn)
+    <div class="flex my-9">
+        <div class="m-auto flex flex-col gap-y-3 items-center">
+            <h1 class="font-semibold text-3xl rotate-3 hover:-rotate-3 transition mb-3 p-3 bg-blue-300 rounded-lg text-white">About Me</h1>
+            <p class="text-center font-light text-lg">
+                Hi! I'm Kleinz, also known by my other online alias, Kyle.<br/>
+                I'm a full stack web developer from the Philippines, and I'm also 14<br/><br/>
+                You will typically see me working with Javascript or Typescript, <br/>
+                although I do use other languages from time to time such as <br/>
+                PHP, Java, and C#<br/>
+                I'm also learning game development using the Unity game engine.<br/><br/>
+
+                Aside from programming stuff, I like watching anime in my spare time<br/>
+                You can see my anime list on <a href="https://anilist.co/user/Kleinz/" class="text-slate-800 hover:text-blue-400">AniList</a> if you'd like to find out what I watch.
+                <br/><br/><br/>
+                <s>chizuru best girl</s>
             </p>
         </div>
     </div>
