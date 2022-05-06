@@ -13,7 +13,7 @@
                 Aside from programming stuff, I like watching anime in my spare time<br/>
                 You can see my anime list on <a href="https://anilist.co/user/Kleinz/" class="text-slate-800 hover:text-blue-400">AniList</a> if you'd like to find out what I watch.
                 <br/><br/><br/>
-                <s>chizuru best girl</s>
+                <s>tanginamo bob</s>
             </p>
         </div>
     </div>
