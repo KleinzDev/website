@@ -12,6 +12,6 @@ export default {
     <div class="flex-grow flex">
       <router-view />
     </div>
-    <div class="box-border px-4 py-2 text-white font-semibold text-center">&copy; Kleinz 2022</div>
+    <div class="box-border mx-4 my-2 text-white font-semibold text-center">&copy; Kleinz 2022</div>
   </div>
 </template>
