@@ -39,7 +39,7 @@ export default {
 </script>
 
 <template>
-    <div class="flex flex-col">
+    <div class="flex flex-col shadow-md">
         <nav class="box-border h-20 px-20 bg-[#314053] text-white flex flex-row flex-wrap">
             <ul class="flex flex-row justify-center gap-2">
                 <li class="m-auto">
@@ -72,10 +72,10 @@ export default {
                 </li>
             </ul>
         </nav>
-        <ul class="box-border px-2 text-white flex flex-row flex-wrap bg-[#314053]" v-if="navDropdown && windowWidth <= 860">
+        <div class="box-border px-2 text-white flex flex-row flex-wrap bg-[#314053]" v-if="navDropdown && windowWidth <= 860">
             <router-link v-for="link in links" :to="link.path"
                 class="basis-full text-slate-100 font-sans font-semibold hover:text-slate-400 box-border p-2">
                 {{link.name}}</router-link>
-        </ul>
+        </div>
     </div>
 </template>
